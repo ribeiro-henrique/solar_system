@@ -1,3 +1,29 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-image: url('./images/background.png');
+  color: aliceblue;
+
+}
+
+img {
+  width: 60px;
+}
+
+.sistema-solar {
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+}
+
+.solar-son {
+  justify-content: space-around;
+  width: 15px;
+}
+
+.solar-son:hover {
+  transform: scale(1.5) skew(10deg);
+  transition: 1s;
+}
